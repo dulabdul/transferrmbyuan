@@ -7,7 +7,7 @@ import Button from './Button';
 const CTASection = () => {
   const handleWhatsAppClick = () => {
     const phoneNumber = '6285787975953';
-    const message = 'Halo Admin TransferRMBYUAN, saya ingin transfer uang';
+    const message = 'Halo Admin Transfer RMB YUAN, saya ingin transfer uang';
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
       '_blank'
