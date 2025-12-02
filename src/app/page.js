@@ -2,6 +2,7 @@ import AboutSection from '@/components/AboutSection';
 import BankLogosSection from '@/components/BankLogoSection';
 import CTASection from '@/components/CTASection';
 import FeaturesSection from '@/components/FeatureSection';
+import FloatingInstagram from '@/components/FloatingInstragam';
 import FloatingWhatsApp from '@/components/FloatingWhatsapp';
 import Footer from '@/components/Footer';
 import HeroSection from '@/components/HeroSection';
@@ -22,6 +23,7 @@ export default function Home() {
       <CTASection />
       <Footer />
       <FloatingWhatsApp />
+      <FloatingInstagram />
     </main>
   );
 }
